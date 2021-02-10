@@ -41,6 +41,17 @@ h2 {
 	/*text-align: left; */
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
+/*	grid-template-columns: 310px 310px 310px;*/
+
+	grid-template-rows: repeat(3,auto);
+	grid-template-areas: 
+	"bev bev bev"
+	"o1 o2 o3"
+	"footer footer footer"
+	;
+/*	justify-content: center;*/
+
+	background-color: var(--vilagoskek);
 
 }
 
@@ -48,6 +59,25 @@ h2 {
     float: left;
     padding: 0px;
    	
+}
+
+#bevcella{
+	grid-area: bev;
+}
+
+
+
+
+#oszlop1{
+	grid-area: o1;
+}
+
+#oszlop2{
+	grid-area: o2;
+}
+
+#oszlop3{
+	grid-area: o3;
 }
 
 .kep {
@@ -72,5 +102,5 @@ a:visited {
 
 #lablec {
     clear: both;
-    
+	grid-area: footer;
 }
