@@ -35,10 +35,17 @@ h2 {
 	
 }
 
+
 #tartalom {
-	width:930px;
 	margin: 0 auto 0 auto;
+	width:930px;
 	/*text-align: left; */
+	background-color: var(--vilagoskek);
+}
+
+.container
+{
+	margin:0px 5px;
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 /*	grid-template-columns: 310px 310px 310px;*/
@@ -50,15 +57,14 @@ h2 {
 	"footer footer footer"
 	;
 /*	justify-content: center;*/
-
-	background-color: var(--vilagoskek);
+	column-gap:5px;
 
 }
 
 #oszlop1, #oszlop2, #oszlop3 {
-    float: left;
+/*    float: left;
     padding: 0px;
-   	
+	*/   	
 }
 
 #bevcella{
