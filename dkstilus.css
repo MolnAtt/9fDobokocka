@@ -1,0 +1,76 @@
+﻿:root {
+	--vilagoskek: #f0f8ff;
+	--sotetkek: #00008b;
+	--sotetpiros: #dc143c;
+  }
+
+body {
+	font-size: 11pt;
+	background-image: url('pic/bg.png');
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, sans-serif;
+	color: var(--sotetkek);
+}
+
+p{
+	
+}
+
+p.bev{
+	
+}
+
+
+hr {
+	
+}
+
+h1, h2 {
+	
+	padding: 5px;
+}
+
+h2 {
+	
+}
+
+#tartalom {
+	width:930px;
+	margin: 0 auto 0 auto;
+	/*text-align: left; */
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+
+}
+
+#oszlop1, #oszlop2, #oszlop3 {
+    float: left;
+    padding: 0px;
+   	
+}
+
+.kep {
+	
+}
+
+a:link {
+	color:var(--sotetpiros);	
+}
+
+a:hover {
+	color:var(--sotetpiros);	
+}
+
+a:active {
+	color:var(--sotetpiros);	
+}
+
+a:visited {
+	color:var(--sotetpiros);	
+}
+
+#lablec {
+    clear: both;
+    
+}

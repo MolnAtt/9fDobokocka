@@ -1,0 +1,33 @@
+body{
+    height: 100%;
+}
+
+.container {
+    display:none;
+    grid-template-columns: 40px 40px 40px;
+    grid-template-rows: auto;
+  }
+
+  .container2{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 15% auto 15%;
+    grid-template-areas: 
+    "header header header header"
+    "sidebar . main main"
+    "footer footer footer footer";
+  }
+
+
+  .header {
+    grid-area: header;
+  }
+  .main {
+    grid-area: main;
+  }
+  .sidebar {
+    grid-area: sidebar;
+  }
+  .footer {
+    grid-area: footer;
+  }
