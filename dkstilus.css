@@ -93,7 +93,9 @@ h2 {
 }
 
 .kep {
-	
+	width: 240px;
+	border:0;
+	margin-left: 30px;
 }
 
 a:link {
