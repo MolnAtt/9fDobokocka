@@ -21,17 +21,23 @@ p.bev{
 	
 }
 
+#bevcella p{
+	font-size: small;
+	font-style: italic;
+}
+
 
 hr {
 	
 }
 
 h1, h2 {
-	
+	color:var(--sotetpiros);
 	padding: 5px;
 }
 
 h2 {
+	font-size: 17px;
 	
 }
 
